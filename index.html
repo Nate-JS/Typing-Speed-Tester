@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="./js/index.js" type="module"></script>
+    <link rel="shortcut icon" href="./images/speedometer.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Typing Speed Tester</h1>
+      <h2 id="timer">0:00</h2>
+
+      <p id="text"></p>
+
+      <textarea id="input" placeholder="Type to start..."></textarea>
+
+      <div class="results-container">
+        <h2>Results</h2>
+        <div>
+          <table id="results">
+            <tr>
+              <th>Typing speed</th>
+              <td id="typingSpeed">20 w/s</td>
+            </tr>
+
+            <tr>
+              <th>Time</th>
+              <td id="typingTime">1 min</td>
+            </tr>
+
+            <tr>
+              <th>Number of words</th>
+              <td id="numberOfWords">1 min</td>
+            </tr>
+
+            <tr>
+              <th>Quality</th>
+              <td id="typingQuality">60%</td>
+            </tr>
+          </table>
+
+          <div>
+            <img src="./images/project.png" />
+            <button id="tryAgainBtn">Test again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
