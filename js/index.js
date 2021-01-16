@@ -2,6 +2,7 @@ import sentences from "./sentences.js";
 
 const CORRECT_LETTER_COLOR = "#ffea00";
 const INCORRECT_LETTER_COLOR = "#8d0801";
+
 class TypingSpeedTester {
   constructor() {
     this.running = false;
